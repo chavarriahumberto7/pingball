@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RICARBALL</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./imgs/link.jpg">
+</head>
+
+<body>
+    <div class='container'>
+        <div class='box'>
+            <p>PING-BALL</p>
+            <p>Hecho porHumberto</p>
+            <p>Solamente PC </p>
+            <img src="./imgs/logo.jpg" alt="" width='100' height='100'>
+        </div>
+        <canvas class='box' id='canvas' width='600' height='500'></canvas>
+        <div class='box'></div>
+    </div>
+    <div class='container'>
+        <div class='box2'>
+            <h1>INSTRUCTIONS</h1>
+            <p class='left'>USA EL BOTON DE PAUSA/COMENZAR PARA PAUSAR EL JUEGO</p>
+            <p class='left'>O UTILIZA LA TEBLA [ENTER] PARA PAUSAR O REANUDAR</p>
+            <p class='left'>SELECCIONA LA BOLA PARA ESCOGER UNA NUEVA IMAGEN</p>
+        </div>
+        <button class='box2' id='button' onclick="pause()">PAUSA/COMENZAR</button>
+        <div class='box2'>
+            <h1>HOW TO PLAY</h1>
+            <p class='right'>USA ↑ PARA MOVER HACIA ARRIBA</p>
+            <p class='right'>USA ↓ PARA MOVER HACIA ABAJO</p>
+            <p class='right'>USA [ ESPACIO ] PARA GOLPEAR LA BOLA</p>
+            <p class='right'>GANA 7 PUNTOS PARA GANAR</p>
+        </div>
+    </div>
+    <script type='text/javascript' src="./script.js"></script>
+</body>
+
+</html>
